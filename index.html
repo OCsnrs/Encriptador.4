@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width">
+    <title>Encriptador de Texto</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <img src="imagenes/Logo.svg" alt="Logo" class="logo">
+    <p class="alura">CHALLENGE 1 - ONE G6</p>
+    <a href="https://www.linkedin.com/in/orbelyscisneros/" class="link">LinkedIn &#10550;</a>
+    <h1>ENCRIPTADOR DE TEXTOS</h1>
+    <div class="container">
+        <div class="text-box">
+            <label class="alerta" id="alerta">&#8192; &#9888; No permite el uso de MAYÚSCULAS, números o carácteres especiales.</label>
+            <textarea id="inputText" class="alerta" placeholder="Ingresa tu texto aquí." maxlength="1000"></textarea>
+                <div class="button-group">
+                    <button id="encryptBtn">Encriptar</button>
+                    <button id="decryptBtn">Desencriptar</button>
+                </div>
+        </div>
+        <div class="text-box">
+            <label>
+                <br>
+            </label>
+            <textarea id="outputText" readonly></textarea>
+                <div class="button-group">
+                    <button id="copyBtn">Copiar Texto</button>
+                    <button id="clearBtn">Borrar Texto</button>
+                </div>
+        </div>
+    </div>
+
+    <footer class="footer">
+        <p>By OCsnrs &#9825;</p>
+    </footer>
+    
+    <script src="script.js"></script>
+</body>
+</html>
